@@ -5,7 +5,7 @@
 
 namespace enum_ex_detail
 {
-    using view = hpp::string_view;
+    using view = std::string_view;
 
     constexpr auto trim_element( const char* str, size_t from, size_t to )
     {
